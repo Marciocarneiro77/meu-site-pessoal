@@ -1,0 +1,57 @@
+body{
+    background-image:url('../img/fundo1.jpg');
+    background-size: 100vw auto;
+    font-family: Arial;
+    height: 100vh;
+    font-size: 12px;
+    color: floralwhite;
+   
+}
+/* se a tela tiver pelo menos 400px vai carregar esses estilos*/
+@media(min-width:400px){
+    body{
+        font-size: 14px;
+        background-image: none;
+        background-color: limegreen;
+    }
+}
+
+/*breakpoint */
+@media (min-width:1200px){
+    body{
+        font-size: 20px;
+        background-image:none;
+        background-color: deeppink;
+    }
+}
+
+a{
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    background-color: white;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.site-titulo,
+.site-subtitulo{
+    color: whitesmoke;
+    text-align: center;
+}
+.site-subtitulo{
+    font-style: italic;
+}
