@@ -7,44 +7,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marcio Carneiro</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/6d6952c5be.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header>
         <nav class="menu">
             <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portifólio</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portifolio">Portifólio</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
-        <h1 class="site-titulo">Marcio Carneiro</h1>
-        <h2 class="site-subtitulo">Jr. frontend developer</h2>
+
+        <div class="titulo">
+
+            <h1 class="site-titulo">Marcio Carneiro</h1>
+            <h2 class="site-subtitulo">Jr. frontend developer</h2>
+        </div>
 
     </header>
 
-<section>
-    <h2>Portifólio</h2>
-    <figure>
-        <img src="img/ecommerce.png" alt="E-commerce" class="img-portifolio">
-        <figcaption>E-commerce </figcaption>
-    </figure>
-
-    <figure>
-        <img src="img/mobile.png" alt="Mobile" class="img-portifolio">
-        <figcaption>Mobile</figcaption>
-    </figure>
-
-    <figure>
-        <img src="img/webdesign.png" alt="webdesign" class="img-webdesign">
-        <figcaption>Webdesign</figcaption>
-    </figure>
-
-    <figure>
-        <img src="img/projetos.png" alt="projetos" class=" img-projetos">
-        <figcaption>Projetos<figcaption>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <figure class="avatar">
+            <img src="img/marcio.jfif" alt="Marcio Carneiro">
         </figure>
-        
+        <p>
+
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, aspernatur doloremque tempora harum
+            dolorem in, rerum ullam maxime necessitatibus numquam unde. Voluptates ducimus itaque tenetur fugit commodi
+            ipsam aperiam possimus!
+        </p>
+
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque consequuntur eveniet neque impedit
+            obcaecati iusto repellat enim odit dignissimos repellendus distinctio sapiente quasi voluptatibus doloribus
+            velit cupiditate minima, placeat nostrum?
+        </p>
+
+        <p>
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nulla illum modi mollitia, fugiat delectus.
+            Mollitia provident, dignissimos corrupti amet iste laudantium sint ullam aperiam nemo repellendus molestias
+            maiores sed.
+        </p>
+
+        <p>
+            Este site foi criado durante as aulas do <a href="https://sp.senac.br/americana"> Curso Técnico em
+                informática
+                do Senac Americana</a>.
+        </p>
+
+
+    </section>
+
+    <section class="portifolio container" id="portifolio">
+        <h2>PORTIFÓLIO</h2>
+
+        <div class="grid">
+            <div class="flip-card">
+                <div class="card">
+
+
+                    <figure class="card-front">
+                        <img src="img/pizza.png" alt="E-commerce" class="img-portifolio">
+                    </figure>
+                    <div class="card-back">
+                        <h3>Sites de Vendas</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class=" card-front">
+                        <img src="img/ferias.png" alt="Mobile" class="img-portifolio">
+                        
+                    </figure>
+                    <div class=" card-back">
+                        <h3>Sites de Hospedagens</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img src="img/tatu.png" alt="webdesign" class="img-portifolio">
+                        
+                    </figure>
+                    <div class="card-back">
+                        <h3>Sites de Delivery</h3>
+                    </div>
+                </div>
+            </div>
+
+<div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img src="img/viagem.png" alt="projetos" class=" img-portifolio">
+                        
+                    </figure>
+                    <div class="card-back">
+                        <h3>Sites de Viagens</h3>
+                    </div>
+                </div>
+            </div>
+
+                </div>
+
+    </section>
+
+    <section class="contato container" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icones">
+            <a href="https://github.com/marciocarneiro77" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/marciocarneiro" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com/marciocarneiro" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/marciocarneiro" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </section>
 </body>
 
 </html>
